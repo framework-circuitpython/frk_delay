@@ -2,7 +2,7 @@ from framework import Driver
 import asyncio
 
 class Delay(Driver):
-    _defaults = {'sleep' = 0.0,
+    _defaults = {'sleep': 0.0,
                  'initial_value': False,
                  'value': False,
                  'delay': 0.5,
